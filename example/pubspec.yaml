@@ -1,0 +1,20 @@
+name: dynamic_app_links_example
+description: Demonstrates the dynamic_app_links package.
+publish_to: none
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.5.0 <4.0.0"
+
+dependencies:
+  dynamic_app_links:
+    path: ../
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true

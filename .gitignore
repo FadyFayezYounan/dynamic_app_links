@@ -1,0 +1,18 @@
+# Dart and Flutter
+.dart_tool/
+.packages
+.pub/
+build/
+coverage/
+pubspec.lock
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# macOS
+.DS_Store
+
+# Local worktrees
+.worktrees/

@@ -1,0 +1,19 @@
+name: dynamic_app_links
+description: A backend-agnostic Flutter package for receiving App Links, building canonical links, creating short links, and handling in-app navigation.
+version: 0.1.0
+repository: https://github.com/FadyFayezYounan/dynamic_app_links
+issue_tracker: https://github.com/FadyFayezYounan/dynamic_app_links/issues
+
+environment:
+  sdk: ">=3.5.0 <4.0.0"
+  flutter: ">=3.24.0"
+
+dependencies:
+  app_links: ">=6.4.1 <8.0.0"
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_lints: ^6.0.0
+  flutter_test:
+    sdk: flutter
